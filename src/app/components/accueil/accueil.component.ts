@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {NavBarComponent} from '../nav-bar/nav-bar.component';
 
 @Component({
   selector: 'app-accueil',
-  imports: [],
+  imports: [
+    NavBarComponent
+  ],
   templateUrl: './accueil.component.html',
   styleUrl: './accueil.component.css'
 })

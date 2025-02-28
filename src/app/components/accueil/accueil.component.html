@@ -1,1 +1,235 @@
-<p>accueil works!</p>
+<!-- Inclusion de la navbar -->
+<app-nav-bar></app-nav-bar>
+
+<!-- Section héro avec image de fond -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center py-5">
+      <div class="col-lg-6 py-5">
+        <h1 class="display-4 fw-bold text-white mb-4">Votre banque,<br>partout avec vous</h1>
+        <p class="lead text-white mb-5">Découvrez une nouvelle façon de gérer votre argent avec une banque 100% digitale, sécurisée et moderne.</p>
+        <a href="#" routerLink="/register" class="btn btn-light btn-lg px-5 py-3 rounded-pill fw-bold">Ouvrir un compte</a>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="hero-card-visual">
+          <!-- Image décorative - carte bancaire stylisée -->
+          <div class="card-visual"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section avantages -->
+<section class="benefits-section py-5">
+  <div class="container py-5">
+    <h2 class="text-center mb-5 fw-bold">Pourquoi choisir NeoBank ?</h2>
+
+    <div class="row g-4">
+      <!-- Avantage 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center p-4">
+            <div class="feature-icon bg-primary bg-gradient text-white rounded-circle mb-4">
+              <i class="bi bi-phone"></i>
+            </div>
+            <h3 class="card-title h5 fw-bold">100% Digital</h3>
+            <p class="card-text text-muted">Gérez tous vos comptes depuis votre smartphone ou votre ordinateur.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avantage 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center p-4">
+            <div class="feature-icon bg-primary bg-gradient text-white rounded-circle mb-4">
+              <i class="bi bi-shield-lock"></i>
+            </div>
+            <h3 class="card-title h5 fw-bold">Sécurisé</h3>
+            <p class="card-text text-muted">Vos données sont protégées par les dernières technologies de cryptage.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avantage 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center p-4">
+            <div class="feature-icon bg-primary bg-gradient text-white rounded-circle mb-4">
+              <i class="bi bi-piggy-bank"></i>
+            </div>
+            <h3 class="card-title h5 fw-bold">Économique</h3>
+            <p class="card-text text-muted">Profitez de services bancaires complets sans frais cachés ni commissions élevées.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section types de comptes -->
+<section class="accounts-section py-5 bg-light">
+  <div class="container py-5">
+    <h2 class="text-center mb-5 fw-bold">Nos types de comptes</h2>
+
+    <div class="row g-4">
+      <!-- Compte Courant -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h3 class="card-title h5 fw-bold text-primary">Compte Courant</h3>
+            <p class="card-text text-muted mb-4">Pour vos besoins quotidiens</p>
+            <ul class="list-unstyled text-muted mb-4">
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Dépôts et retraits illimités</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Virements nationaux</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Carte bancaire gratuite</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary w-100">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compte Épargne -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h3 class="card-title h5 fw-bold text-primary">Compte Épargne</h3>
+            <p class="card-text text-muted mb-4">Faites fructifier votre argent</p>
+            <ul class="list-unstyled text-muted mb-4">
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Taux d'intérêt attractif</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Dépôts illimités</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Retraits limités</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary w-100">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compte Professionnel -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h3 class="card-title h5 fw-bold text-primary">Compte Pro</h3>
+            <p class="card-text text-muted mb-4">Adapté aux besoins des entrepreneurs</p>
+            <ul class="list-unstyled text-muted mb-4">
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Gros montants autorisés</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Virements internationaux</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Multi-utilisateurs</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary w-100">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compte Jeune -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h3 class="card-title h5 fw-bold text-primary">Compte Jeune</h3>
+            <p class="card-text text-muted mb-4">Pour les moins de 25 ans</p>
+            <ul class="list-unstyled text-muted mb-4">
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Pas de frais mensuels</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Plafond de transaction limité</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Accompagnement pédagogique</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary w-100">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section d'action CTA -->
+<section class="cta-section py-5 bg-primary text-white">
+  <div class="container py-5 text-center">
+    <h2 class="display-5 fw-bold mb-4">Prêt à simplifier votre vie bancaire ?</h2>
+    <p class="lead mb-5">Ouvrez un compte en quelques minutes et commencez à gérer votre argent autrement.</p>
+    <a href="#" routerLink="/register" class="btn btn-light btn-lg px-5 py-3 rounded-pill fw-bold">Créer mon compte</a>
+  </div>
+</section>
+
+<!-- Section témoignages -->
+<section class="testimonials-section py-5">
+  <div class="container py-5">
+    <h2 class="text-center mb-5 fw-bold">Ce que nos clients disent</h2>
+
+    <div class="row g-4">
+      <!-- Témoignage 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-4">
+              <div class="rounded-circle bg-primary bg-opacity-10 p-3 me-3">
+                <i class="bi bi-person text-primary"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">Sophie D.</h5>
+                <p class="text-muted mb-0">Cliente depuis 2 ans</p>
+              </div>
+            </div>
+            <p class="card-text">"Je gère tout mon argent depuis mon smartphone. Les notifications instantanées me permettent de suivre mes dépenses en temps réel !"</p>
+            <div class="text-primary">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Témoignage 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-4">
+              <div class="rounded-circle bg-primary bg-opacity-10 p-3 me-3">
+                <i class="bi bi-person text-primary"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">Thomas L.</h5>
+                <p class="text-muted mb-0">Client depuis 1 an</p>
+              </div>
+            </div>
+            <p class="card-text">"L'ouverture de mon compte pro a été ultra rapide. Le service client est réactif et les conseillers vraiment compétents."</p>
+            <div class="text-primary">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Témoignage 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-4">
+              <div class="rounded-circle bg-primary bg-opacity-10 p-3 me-3">
+                <i class="bi bi-person text-primary"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">Emma R.</h5>
+                <p class="text-muted mb-0">Cliente depuis 6 mois</p>
+              </div>
+            </div>
+            <p class="card-text">"Mon compte épargne me rapporte plus que ma banque précédente. L'application est intuitive et les virements sont instantanés !"</p>
+            <div class="text-primary">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
